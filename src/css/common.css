@@ -1,0 +1,42 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0e1823;
+  color: #fbfbfb;
+}
+
+.main-btn {
+  border-radius: 15px;
+  background: #1b414b;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
