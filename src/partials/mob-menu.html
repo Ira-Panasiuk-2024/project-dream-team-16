@@ -1,10 +1,12 @@
-<div class="mob-menu is-open">
+<div class="mob-menu is-open" data-modal>
   <div class="container mob-menu-container">
     <div class="mob-menu-head">
       <a class="mob-menu-link" href="">yachtjet</a
-      ><svg class="close-btn" width="28" height="28">
-        <use href="../img/icons.svg#icon-close-btn"></use>
-      </svg>
+      ><button class="close-btn" type="button" data-modal-close>
+        <svg class="close-icon" width="28" height="28">
+          <use href="../img/icons.svg#icon-close-btn"></use>
+        </svg>
+      </button>
     </div>
     <div class="buttons-container">
       <ul class="btn-list">
@@ -18,19 +20,37 @@
     <div class="mob-menu-socials">
       <ul class="icons-list">
         <li>
-          <svg class="mob-menu-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-instagram"></use>
-          </svg>
+          <a
+            class="mob-soc-link"
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+          >
+            <svg class="mob-menu-icon" width="19" height="19">
+              <use href="/img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
         </li>
         <li>
-          <svg class="mob-menu-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-youtube"></use>
-          </svg>
+          <a
+            class="mob-soc-link"
+            href="https://www.youtube.com/c/GoIT"
+            target="_blank"
+          >
+            <svg class="mob-menu-icon" width="20" height="20">
+              <use href="/img/icons.svg#icon-youtube"></use>
+            </svg>
+          </a>
         </li>
         <li>
-          <svg class="mob-menu-icon" width="24" height="24">
-            <use href="../img/icons.svg#icon-facebook"></use>
-          </svg>
+          <a
+            class="mob-soc-link"
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+          >
+            <svg class="mob-menu-icon" width="20" height="20">
+              <use href="/img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
         </li>
       </ul>
     </div>

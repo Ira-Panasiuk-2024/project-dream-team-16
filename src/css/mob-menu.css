@@ -44,6 +44,13 @@
 }
 
 .close-btn {
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  background: #fbfbfb;
+  padding: 0;
+}
+
+.close-icon {
   fill: #055545;
 }
 
@@ -99,6 +106,14 @@
   justify-content: center;
   align-items: center;
   gap: 11px;
+}
+
+.mob-soc-link {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mob-menu-icon {
