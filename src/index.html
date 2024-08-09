@@ -32,17 +32,56 @@
     </header>
 
     <main>
-      <load src="partials/hero.html" />
-
-      <load srs="partials/about-us.html" />
-
-      <load srs="partials/our-yachts.html" />
-
-      <load srs="partials/advantages.html" />
-
       <load srs="partials/rent-a-yacht.html" />
+      <section class="rent-a-yacht">
+        <img class="img-rent" src="img/rent-a-yacht/desktop1-1x.jpg" />
+        <div class="container" id="rental">
+          <h2 class="rent-a-yacht-article">Rent a yacht now</h2>
+          <form>
+            <div class="window-class">
+              <input
+                class="input-class-window"
+                id="user-name"
+                name="user-name"
+                type="text"
+                placeholder="Full Name"
+              />
+            </div>
 
-      <load srs="partials/reviews.html" />
+            <div class="window-class">
+              <input
+                class="input-class-window"
+                id="user-email"
+                name="user-email"
+                type="text"
+                placeholder="Email"
+              />
+            </div>
+
+            <div class="window-class">
+              <input
+                class="input-class-window"
+                id="user-phone"
+                name="user-phone"
+                type="text"
+                placeholder="Phone number"
+              />
+            </div>
+
+            <div class="type-field">
+              <textarea
+                id="user-comment"
+                name="user-comment"
+                placeholder="Text input"
+                class="textarea"
+                placeholder="Comment"
+              ></textarea>
+            </div>
+
+            <button class="button-rent" type="button">Send</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
