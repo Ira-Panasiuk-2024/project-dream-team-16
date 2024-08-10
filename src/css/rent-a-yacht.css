@@ -87,7 +87,10 @@
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        min-width: 704px;
+        margin:0 auto;
+        padding-left: 116px;
+        padding-right: 116px;
 
 
     }
@@ -148,8 +151,12 @@
 
 @media screen and (min-width: 1280px) {
     .container {
-        max-width: 1280px;
-
+        min-width: 1230px;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
 
     }
 
@@ -160,10 +167,13 @@
         opacity: 0px;
         top: 3250px;
         left: 50px;
-        border-radius: 24px;
+        border-radius: 24px; 
+        margin-right:50px ;
 
     }
+  
 }
+
 
 @media screen and (min-width: 1440px) {
     .container {
