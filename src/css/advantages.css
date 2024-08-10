@@ -88,6 +88,7 @@
   
     .list-of-advantages {
       padding: 90px 32px;
+      height: 424px;
     }
   
     .advantages-title {
@@ -108,7 +109,19 @@
     }
     .list-of-advantages {
       max-width: 716px;
-      /* height: 424px; */
+      padding: 90px 50px;
+      
+    }
+
+    .picture-adv {
+      width: 432px;
     }
     
   }
+
+  @media screen and (min-width: 1440px) {
+    .picture-adv {
+      width: 540px;
+    }
+  }
+
