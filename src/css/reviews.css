@@ -59,6 +59,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
+  /* width: 303px; */
 }
 
 .item-two,
@@ -95,6 +96,10 @@
   .item-two {
     display: block;
   }
+
+  .reviews-feedback {
+    /* width: 304px; */
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -118,6 +123,10 @@
   .reviews-card {
     padding: 32px 28px;
   }
+
+  .reviews-feedback {
+    /* width: 320px; */
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -129,6 +138,7 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+
   .reviews-card {
     padding: 32px 36px;
   }
