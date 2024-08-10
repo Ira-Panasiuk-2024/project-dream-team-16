@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 335px;
-    padding: 0 16px;
-    margin: 0 auto;
-}
+
 
 .img-rent {
     display: none;
@@ -43,8 +39,8 @@
 }
 
 .input-class-window {
-    width: Hug (335px)px;
-    height: Hug (42px)px;
+    width: 335px;
+    height: 42px;
     padding: 14px;
     border-radius: 12px;
     border: 1px;
