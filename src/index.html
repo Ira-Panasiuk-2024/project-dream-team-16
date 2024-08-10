@@ -46,6 +46,7 @@
                   name="user-name"
                   type="text"
                   placeholder="Full Name"
+                  required
                 />
               </div>
 
@@ -54,7 +55,9 @@
                   class="input-class-window"
                   id="user-email"
                   name="user-email"
-                  type="text"
+                  type="email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  required
                   placeholder="Email"
                 />
               </div>
@@ -64,8 +67,10 @@
                   class="input-class-window"
                   id="user-phone"
                   name="user-phone"
-                  type="text"
+                  pattern="^+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+                  type="tel"
                   placeholder="Phone number"
+                  required
                 />
               </div>
 
