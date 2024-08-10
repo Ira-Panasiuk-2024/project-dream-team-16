@@ -90,26 +90,16 @@
   color: #040306;
 }
 
-.button-our-yachts {
-  border: none;
+.button-link-yahts {
   border: 1px solid rgba(251, 251, 251, 0.35);
   border-radius: 15px;
-  width: 141px;
-  height: 46px;
+  padding: 14px 32px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
   display: flex;
   justify-content: center;
   background-color: transparent;
-}
-
-.list-yahts-two,
-.list-yachts-tree {
-  display: none;
-}
-
-.button-link-yahts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -117,12 +107,14 @@
   color: #fbfbfb;
 }
 
-.button-our-yachts:hover,
-.button-our-yachts:focus {
-  background-color: #fbfbfb;
+.list-yahts-two,
+.list-yachts-tree {
+  display: none;
 }
 
+.button-link-yahts:hover,
 .button-link-yahts:hover {
+  background-color: #fbfbfb;
   color: #1b414b;
 }
 
@@ -145,7 +137,7 @@
   }
 
   .list-yahts-two {
-    display: inline;
+    display: block;
   }
 
   .container-discr-yachts-subtitle {
@@ -165,9 +157,8 @@
     line-height: 1.18;
   }
 
-  .button-our-yachts {
-    width: 179px;
-    height: 52px;
+  .button-link-yahts {
+    padding: 16px 40px;
     font-size: 18px;
     line-height: 1.1;
   }
@@ -183,7 +174,11 @@
   }
 
   .list-yachts-tree {
-    display: inline;
+    display: block;
+  }
+
+  .yaht-benetti {
+    max-width: 177px;
   }
 }
 
