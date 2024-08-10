@@ -12,7 +12,7 @@
   align-items: center;
   background-color: rgba(251, 251, 251, 1);
   border-radius: 8px;
-  padding: 4px 30px;
+  padding: 7px 20px;
 }
 .header-logo {
     font-weight: 500;
@@ -66,13 +66,12 @@
     background: none;
 }
 
-header .container {
-    max-width: none;
-}
-
 @media screen and (min-width: 768px) {
     .header {
         top: 32px;
+    }
+    .header-wrap {
+        padding: 4px 28px;
     }
     .header-btn {
         display: none;
@@ -91,6 +90,7 @@ header .container {
 
 @media screen and (min-width: 1280px) {
     .header-wrap {
+        padding: 4px 30px;
         margin: 0 50px;
     }
 }
