@@ -23,7 +23,7 @@
 
     
     <script type="module" crossorigin src="/project-dream-team-16/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-dream-team-16/assets/index-0b76fe0d.css">
+    <link rel="stylesheet" href="/project-dream-team-16/assets/index-673e97f5.css">
   </head>
 
   <body>
@@ -319,10 +319,88 @@
 </section>
 
 
-      <section class="rent-a-yacht">
-  rent a yacht
-  <div class="container">
-    <h2></h2>
+      <section class="rent-page">
+  <div class="container" id="rental">
+    <div class="article-form-div">
+      <div class="no-image-class">
+        <h2 class="rent-a-yacht-article">Rent a yacht now</h2>
+        <form class="form-rent">
+          <div class="form-rent-input">
+            <label for="user-name">
+              <input
+                class="input-class-window"
+                id="user-name"
+                name="user-name"
+                type="text"
+                placeholder="Full Name"
+                required
+                pattern="[A-Za-zА-Яа-яЁёІіЇїЄє'`ґҐ\s-]+"
+                minlength="2"
+                maxlength="50"
+              />
+            </label>
+            <label for="user-email">
+              <input
+                class="input-class-window"
+                id="user-email"
+                name="user-email"
+                type="email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+                placeholder="Email"
+              />
+            </label>
+
+            <label for="user-phone">
+              <input
+                class="input-class-window"
+                id="user-phone"
+                name="user-phone"
+                pattern="^+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+                type="tel"
+                placeholder="Phone number"
+                required
+              />
+            </label>
+            <label for="user-comment">
+              <textarea
+                id="user-comment"
+                name="user-comment"
+                class="textarea-class"
+                placeholder="Comment"
+                type="submit"
+              ></textarea>
+            </label>
+          </div>
+
+          <button class="button-rent" type="submit">Send</button>
+        </form>
+      </div>
+      <picture>
+        <source
+          media="(min-width:1440px )"
+          srcset="/project-dream-team-16/assets/yaht-rent-x1-6ebcde51.jpg 1x, /project-dream-team-16/assets/yaht-rent-x2-d4cf8836.jpg 2x"
+        />
+        <source
+          media="(min-width:1280px )"
+          srcset="/project-dream-team-16/assets/yaht-rent-x1-8d2c4aaa.jpg 1x, /project-dream-team-16/assets/yaht-rent-x2-f17b81bf.jpg 2x"
+        />
+        <source
+          media="(min-width:768px )"
+          srcset="/project-dream-team-16/assets/yaht-rent-x1-74f2ce20.jpg 1x, /project-dream-team-16/assets/yaht-rent-x2-97360ecf.jpg 2x"
+        />
+        <source
+          media="(max-width:767px )"
+          srcset="/project-dream-team-16/assets/yaht-rent-x1-2bbf4882.jpg 1x, /project-dream-team-16/assets/yaht-rent-x2-16b54ba1.jpg 2x"
+        />
+        <img
+          class="img-rent"
+          src="/project-dream-team-16/assets/yaht-rent-x1-2bbf4882.jpg"
+          alt="Yacht"
+          width="335"
+        />
+      </picture>
+    </div>
   </div>
 </section>
 
