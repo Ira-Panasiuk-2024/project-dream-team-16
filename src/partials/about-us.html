@@ -1,6 +1,59 @@
-<section class="about-us">
-  about us
-  <div class="container">
-    <h2></h2>
+<section class="about-page" id="about">
+  <div class="container about-container">
+    <div class="about-page-discr">
+      <h2 class="about-page-title">
+        YachtJet fleet is here to take you on the ultimate adventure
+      </h2>
+      <div class="about-page-text">
+        <h3 class="about-subtitle">
+          From spacious decks to state-of-the-art technology, our yachts are
+          designed to provide the perfect blend of luxury and functionality.
+        </h3>
+        <p class="about-text">
+          Take a look at our selection below and choose the yacht that matches
+          your needs and preferences.No matter which yacht you choose, our
+          experienced crew will ensure that your journey is smooth and
+          enjoyable. Book now and get ready for an unforgettable adventure on
+          the high seas.
+        </p>
+      </div>
+    </div>
+
+    <picture class="about-img-container">
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          ./img/desktop_1440/yaht-rent-x1.jpg 1x,
+          ./img/desktop_1440/yaht-rent-x2.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./img/desktop_1280/yaht-rent-x1.jpg 1x,
+          ./img/desktop_1280/yaht-rent-x2.jpg 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/tablet/yaht-rent-x1.jpg 1x,
+          ./img/tablet/yaht-rent-x2.jpg 2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img/mobile/yaht-rent-x1.jpg 1x,
+          ./img/mobile/yaht-rent-x2.jpg 2x
+        "
+      />
+      <img
+        class="about-image"
+        src="./img/mobile/yaht-rent-x1.jpg"
+        alt="Yacht"
+        width="375"
+      />
+    </picture>
   </div>
 </section>
