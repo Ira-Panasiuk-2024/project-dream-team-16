@@ -2,6 +2,7 @@ body {
   font-family: 'Inter', sans-serif;
   background: #0e1823;
   color: #fbfbfb;
+  margin: 0;
 }
 
 .main-btn {
@@ -21,22 +22,26 @@ body {
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
     padding: 0 50px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1440px;
+    max-width: 1440px;
   }
 }

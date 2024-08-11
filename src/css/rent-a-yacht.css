@@ -1,1 +1,155 @@
+.rent-a-yacht-article {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.form-rent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.form-rent-input {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
 
+.input-class-window {
+  width: 100%;
+  outline: transparent;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+}
+
+.input-class-window::placeholder,
+.textarea-class::placeholder {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+.textarea-class {
+  width: 100%;
+  height: 108px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  resize: none;
+  outline: transparent;
+}
+
+.button-rent {
+  width: 122px;
+  padding: 14px 44px 14px 44px;
+  border-radius: 15px;
+  background: rgba(27, 65, 75, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 1);
+  margin-right: auto;
+}
+.input-class-window:hover,
+.textarea-class:hover {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+}
+.button-rent:hover,
+.button-rent:focus {
+  background-color: #fbfbfb;
+  color: #1b414b;
+}
+.img-rent {
+  border-radius: 24px;
+}
+@media screen and (min-width: 768px) {
+  .no-image-class {
+    margin-left: 107px;
+    margin-right: 107px;
+  }
+  .rent-a-yacht-article {
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  .form-rent {
+    margin-bottom: 100px;
+  }
+
+  .input-class-window {
+    height: 54px;
+    padding: 18px;
+    border-radius: 12px;
+  }
+
+  .type-field {
+    margin-bottom: 50px;
+  }
+
+  .textarea-class {
+    width: 100%;
+    height: 120px;
+    resize: none;
+  }
+
+  .button-rent {
+    width: 194px;
+    height: 56px;
+    padding: 18px 75px;
+
+    border-radius: 15px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .img-rent {
+    border-radius: 24px;
+    width: 704px;
+    height: 534px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .article-form-div {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .rent-a-yacht-article {
+    width: 100%;
+  }
+  .img-rent {
+    width: 658px;
+    height: 536px;
+  }
+  .no-image-class {
+    margin-left: 50px;
+    margin-right: auto;
+  }
+  .form-rent {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .img-rent {
+    display: flex;
+    width: 768px;
+    height: 536px;
+    opacity: 0px;
+    top: 3250px;
+    left: 50px;
+    border-radius: 24px;
+  }
+}

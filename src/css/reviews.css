@@ -1,1 +1,145 @@
+.reviews {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 
+.reviews-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  max-width: 335px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.reviews-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  opacity: 0.4;
+  max-width: 335px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.reviews-list {
+  display: flex;
+}
+
+.reviews-card {
+  border-radius: 24px;
+  padding: 32px 8px;
+  background-color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews-image {
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.reviews-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+
+.reviews-feedback {
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  /* width: 303px; */
+}
+
+.item-two,
+.item-three {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    max-width: 704px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .reviews-text {
+    font-size: 14px;
+    line-height: 1.29;
+    max-width: 571px;
+    margin-bottom: 75px;
+  }
+
+  .reviews-list {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .item-two {
+    display: block;
+  }
+
+  .reviews-feedback {
+    /* width: 304px; */
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-title {
+    font-size: 48px;
+    max-width: 854px;
+  }
+
+  .reviews-items {
+    max-width: calc((100% - 52px) / 3);
+  }
+
+  .reviews-list {
+    gap: 26px;
+  }
+
+  .item-three {
+    display: block;
+  }
+
+  .reviews-card {
+    padding: 32px 28px;
+  }
+
+  .reviews-feedback {
+    /* width: 320px; */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reviews-list {
+    gap: 32px;
+  }
+
+  .reviews-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .reviews-card {
+    padding: 32px 36px;
+  }
+}
