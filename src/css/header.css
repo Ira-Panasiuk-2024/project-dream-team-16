@@ -1,3 +1,7 @@
+.body-position {
+  position: relative;
+}
+
 .header {
     position: absolute;
     top: 20px;
