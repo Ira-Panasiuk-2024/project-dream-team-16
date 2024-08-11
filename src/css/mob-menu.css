@@ -15,9 +15,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: #0e1823;
 }
 
-.mob-menu.is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -36,9 +37,7 @@
   width: 100%;
 }
 
-.mob-menu-link {
-  width: 52px;
-  height: 18px;
+.mob-menu-logo {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
@@ -62,20 +61,18 @@
   fill: #055545;
 }
 
-/* buttons */
-
 .nav-list {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.mob-menu-btn {
+.mob-menu-link {
   border-radius: 8px;
   width: 91px;
-  height: 40px;
-  padding: 15px 25px;
-  background: rgba(27, 65, 75, 0.5);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(27, 65, 75, 0.5);
   font-size: 9px;
   line-height: 1.3;
   text-transform: uppercase;
@@ -84,26 +81,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0;
 }
 
-.current,
-.mob-menu-btn:focus {
-  background: #1b414b;
-}
-
-/* icons */
-
-.icons-list {
+.mob-soc-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 11px;
 }
 
-.mob-soc-link {
+.mob-soc-list-link {
   width: 24px;
   height: 24px;
   display: flex;
@@ -111,6 +98,11 @@
   align-items: center;
 }
 
-.mob-menu-icon {
+.mob-soc-icon {
   fill: #fbfbfb;
+}
+
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+  background-color: #1b414b;
 }
