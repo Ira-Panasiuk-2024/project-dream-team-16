@@ -10,7 +10,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   max-width: 335px;
-  margin: 0 auto;
   margin-bottom: 25px;
 }
 
@@ -59,7 +58,6 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
-  /* width: 303px; */
 }
 
 .item-two,
@@ -76,7 +74,8 @@
   .reviews-title {
     font-size: 48px;
     max-width: 704px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 25px;
   }
 
@@ -95,10 +94,6 @@
 
   .item-two {
     display: block;
-  }
-
-  .reviews-feedback {
-    /* width: 304px; */
   }
 }
 
@@ -122,10 +117,6 @@
 
   .reviews-card {
     padding: 32px 28px;
-  }
-
-  .reviews-feedback {
-    /* width: 320px; */
   }
 }
 
