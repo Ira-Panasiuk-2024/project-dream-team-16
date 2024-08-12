@@ -24,7 +24,7 @@
 
 .list-of-advantages {
   background: rgba(27, 65, 75, 1);
-  border-radius: 28px;
+  border-radius: 24px;
   padding: 80px 20px;
   max-width: 100%;
   max-height: 100%;
@@ -55,10 +55,11 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
+  opacity: 0.8;
 }
 
 .advantages-photo {
-  border-radius: 28px;
+  border-radius: 24px;
   height: 424px;
   width: 100%;
 }
@@ -70,12 +71,15 @@
 
 .picture-adv {
   width: 100%;
-  border-radius: 24px;
 }
 
-/*--------------mobile---------------*/
 
 @media screen and (min-width: 768px) {
+
+  .advantages {
+    padding-bottom: 150px;
+  }
+
   .container-advantages {
     gap: 32px;
   }
@@ -101,6 +105,7 @@
 }
 
 @media screen and (min-width: 1280px) {
+
   .container-advantages {
     flex-direction: row;
   }
@@ -115,6 +120,12 @@
 }
 
 @media screen and (min-width: 1440px) {
+
+
+.list-of-advantages {
+  min-width: 768px;
+}
+
   .picture-adv {
     width: 540px;
   }
