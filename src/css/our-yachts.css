@@ -88,6 +88,15 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #040306;
+  opacity: 0.4;
+}
+
+.list-class-yachts-item {
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
 }
 
 .button-link-yahts {
@@ -158,6 +167,7 @@
   .container-discr-yachts-text {
     font-size: 13px;
     line-height: 1.18;
+    opacity: 0.4;
   }
 
   .button-link-yahts {
