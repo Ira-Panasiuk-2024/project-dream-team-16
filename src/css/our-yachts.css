@@ -17,7 +17,7 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 40px;
-  width: 319px;
+  max-width: 319px;
 }
 
 .list-our-yachts {
@@ -139,7 +139,7 @@
   .container-title-yachts {
     font-size: 48px;
     margin-bottom: 75px;
-    width: 645px;
+    max-width: 645px;
   }
 
   .list-our-yachts {
@@ -179,7 +179,7 @@
 
 @media screen and (min-width: 1280px) {
   .container-title-yachts {
-    width: 714px;
+    max-width: 714px;
   }
 
   .list-our-yachts {
